@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="266ae043-79d6-4b0c-a9a4-c92f7b7a4a7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/ast/operations/EqualsOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/ast/operations/LargerThanOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/ast/operations/NotOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/ast/operations/SmallerThanOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/checker/PropertyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/parser/HANLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/parser/HANListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/parser/HANStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/transforms/TrashHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/antlr4/nl/han/ica/icss/parser/ICSS.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/antlr4/nl/han/ica/icss/parser/ICSS.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/checker/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/checker/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/generator/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/generator/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/parser/ASTListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/parser/ASTListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/transforms/EvalExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/transforms/EvalExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/transforms/RemoveIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/icss/transforms/RemoveIf.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hxLYtM1UQxccZiHwuyHG6soT7A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13 (OpenJDK)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.icss.gui.Main" />
+      <module name="icsstool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.icss.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="icsstool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.icss.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.han.ica.icss.parser" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.icss.parser.ParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.testParseLevel1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="icsstool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.icss.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.han.ica.icss.parser" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.icss.parser.ParserTest" />
+      <option name="METHOD_NAME" value="testParseLevel1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.testParseLevel2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="icsstool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.icss.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.han.ica.icss.parser" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.icss.parser.ParserTest" />
+      <option name="METHOD_NAME" value="testParseLevel2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.testParseLevel3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="icsstool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.icss.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.han.ica.icss.parser" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.icss.parser.ParserTest" />
+      <option name="METHOD_NAME" value="testParseLevel3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ParserTest" />
+        <item itemvalue="JUnit.ParserTest.testParseLevel3" />
+        <item itemvalue="JUnit.ParserTest.testParseLevel2" />
+        <item itemvalue="JUnit.ParserTest.testParseLevel1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="266ae043-79d6-4b0c-a9a4-c92f7b7a4a7e" name="Default Changelist" comment="" />
+      <created>1600947846662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600947846662</updated>
+      <workItem from="1600947847958" duration="1191000" />
+      <workItem from="1601220890479" duration="177000" />
+      <workItem from="1601221083542" duration="1262000" />
+      <workItem from="1601295149844" duration="2680000" />
+      <workItem from="1601452212529" duration="2122000" />
+      <workItem from="1601470898476" duration="6047000" />
+      <workItem from="1602054476426" duration="1990000" />
+      <workItem from="1602157482189" duration="7469000" />
+      <workItem from="1602328048080" duration="2403000" />
+      <workItem from="1602412191736" duration="4167000" />
+      <workItem from="1602423503721" duration="12423000" />
+      <workItem from="1602486876895" duration="8742000" />
+      <workItem from="1602526671500" duration="5983000" />
+      <workItem from="1602570849625" duration="12030000" />
+      <workItem from="1602658748051" duration="19479000" />
+      <workItem from="1602745367488" duration="19813000" />
+      <workItem from="1602834103146" duration="8568000" />
+      <workItem from="1602859740133" duration="15000" />
+      <workItem from="1602859771506" duration="5884000" />
+      <workItem from="1602870986754" duration="858000" />
+      <workItem from="1603532070898" duration="20000" />
+      <workItem from="1603878898486" duration="2075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
